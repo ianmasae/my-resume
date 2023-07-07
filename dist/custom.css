@@ -1,0 +1,44 @@
+:root {
+  --bg: #000000;
+  --clr-1: #00c2ff;
+  --clr-2: #33ff8c;
+  --clr-3: #ffc640;
+  --clr-4: #e54cff;
+
+  --blur: 1rem;
+  --fs: clamp(2rem, 6vw, 5rem);
+  --ls: clamp(-1.75px, -0.25vw, -3.5px);
+}
+
+.subtitle-gradient {
+  font-size: 48px;
+  background-image: -webkit-linear-gradient(45deg, #1aa6c5 0%, #478354 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient {
+  color: #63c90f;
+  background-image: -webkit-radial-gradient(circle, #63c90f 56%, #18b2e0 94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  font-size: var(--fs);
+  font-weight: 800;
+  letter-spacing: var(--ls);
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: var(clamp(1rem, 6vw, 2rem));
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}

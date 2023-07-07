@@ -1,91 +1,99 @@
 <html>
-	<head>
-		<link href="style.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-        <title>Ian Masae</title>
-	</head>
 
-	<body>
-		<header id="header">
-			<!-- resume header with your name and title -->
-			<h1 class="gradient-text">Ian Masae</h1>
-			<hr>
-			My Resume
-			<hr>
-		</header>
-		<main>
-			<article id="mainLeft">
-				<section>
-					<h2>CONTACT</h2>
-					<!-- contact info including social media -->
-                    <p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:username@domain.top-level domain">ian.m.masae@gmail.com</a>
-                    </p>
-                    <p>
-                        <i class="fab fa-github" aria-hidden="true"></i>
-                        <a href="github.com/ianmasae">ianmasae</a>
-                    </p>
-                    <p>
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
-                        <a href="linkedin.com/ianmasae">ianmasae</a>
-                    </p>
-				</section>
-				<section>
-					<h2>SKILLS</h2>
-					<!-- your skills -->
-                    <ul>
-                        <li>Skill 1!</li>
-                        <li>Skill 2!</li>
-                        <li>Skill 3!</li>
-                        <li>Skill 4!</li>
-                    </ul>
-				</section>
-				<section>
-					<h2>EDUCATION</h2>
-					<!-- your education -->
-                    <h3>Bachelor of Science Computer Technology</h3>
-                    <p>
-                        Jomo Kenyatta University of Science and Technology
-                    </p>
-                    <p>
-                        September 2021 - December 2025
-                    </p>
-				</section>            
-			</article>
-			<article id="mainRight">
-				<section>
-					<h2>ABOUT</h2>
-					<!-- about you -->
-                    <p>Write a blurb about yourself!</p>
-				</section>
-				<section>
-					<h2>WORK EXPERIENCE</h2>
-					<!-- your work experience -->
-                    <h3>Job Title</h3>
-                    <p>
-                        Organization Name Goes Here | Start Month – End Month
-                    </p>
-                    <ul>
-                            <li>Task 1 - Write what you did!</li>
-                            <li>Task 2 - Write what you did!</li>
-                            <li>Write the outcomes/impact of your contribution</li>
-                            
-                    </ul>
+<head>
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link href="./dist/custom.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Ian Masae</title>
+</head>
 
-                    <h3>Job Title 2</h3>
-                    <p>
-                        Organization Name Goes Here | Start Month – End Month
-                    </p>
-                    <ul>
-                            <li>Task 1 - Write what you did!</li>
-                            <li>Task 2 - Write what you did!</li>
-                            <li>Write the outcomes/impact of your contribution</li>
-                            
-                    </ul>
-				</section>
-			</article>
-		</main>
-	</body>
+<body>
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="block items-center justify-center text-center">
+            <h1 class="title text-gradient mx-auto">Hello, I'm Ian Masae</h1>
+            <p class="mx-auto text-8xl">A tech enthusiast and self-taught programmer, with a great passion in web design
+                and android development.</p>
+        </div>
+    </div>
+
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="block items-center justify-center">
+            <h1 class="subtitle title-gradient text-center mx-auto">Skills</h1>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-5">
+                <article data-aos="fade-up"
+                data-aos-duration="1000"
+                    class="rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:shadow-sm">
+                    <div class="rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
+                        <img src="./assets/flutter.svg" alt="Flutter Logo" class="h-16 w-16 pb-4">
+
+                        <p class="block text-lg font-medium text-gray-900">Flutter Development</p>
+                        <h3 class="mt-0.5 text-sm text-gray-500 ">
+                            I possess an exceptional command over this cross-platform framework, enabling me to build
+                            stunning and responsive apps for multiple platforms simultaneously. With Flutter's
+                            expressive UI
+                            toolkit, I effortlessly create beautiful interfaces that run seamlessly on both Android and
+                            iOS
+                            devices
+                        </h3>
+                    </div>
+                </article>
+                <article data-aos="fade-up"
+                data-aos-duration="1500"
+                    class="rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:shadow-sm">
+                    <div class="rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
+                        <img src="./assets/android.svg" alt="Android Logo" class="h-16 w-16 pb-4">
+
+                        <p class="block text-lg font-medium text-gray-900">Android Development</p>
+                        <h3 class="mt-0.5 text-sm text-gray-500 ">
+                            With a deep understanding of the Android ecosystem, I excel at leveraging the power of Java
+                            or
+                            Kotlin to create highly performant and engaging user interfaces. From designing intuitive
+                            layouts to implementing seamless navigation and incorporating device-specific
+                            functionalities
+                        </h3>
+                    </div>
+                </article>
+                <article data-aos="fade-up"
+                data-aos-duration="2000"
+                    class="rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:shadow-sm">
+                    <div class="rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
+                        <img src="./assets/node-js.svg" alt="NodeJS Logo" class="h-16 w-16 pb-4">
+
+                        <p class="block text-lg font-medium text-gray-900">Node.JS Development</p>
+                        <h3 class="mt-0.5 text-sm text-gray-500 ">
+                            In backend development, my Node.js expertise is unparalleled. I build scalable server-side
+                            applications, create RESTful APIs, handle real-time applications with WebSockets, and work
+                            with
+                            databases like MongoDB. I utilize Express.js for robust API development, routing,
+                            and middleware functionalities.
+                        </h3>
+                    </div>
+                </article>
+                <article data-aos="fade-up"
+                data-aos-duration="2500"
+                    class="rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:shadow-sm">
+                    <div class="rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
+                        <img src="./assets/nextjs.svg" alt="Next.JS Logo" class="h-16 w-16 pb-4">
+
+                        <p class="block text-lg font-medium text-gray-900">Next.JS Development</p>
+                        <h3 class="mt-0.5 text-sm text-gray-500 ">
+                            With my absolute mastery of Next.js in web development, I excel at building high-performance
+                            React applications that are SEO-friendly and provide a seamless user experience. I
+                            seamlessly
+                            integrate APIs and backend systems, handle server-side rendering, data fetching, and
+                            client-side
+                            routing.
+                        </h3>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
 </html>
